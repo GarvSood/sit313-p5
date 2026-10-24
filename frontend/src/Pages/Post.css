@@ -1,0 +1,162 @@
+.post-page {
+  min-height: 100vh;
+  padding: 40px 20px;
+  background: #f5f6f8;
+  color: #24292f;
+}
+
+.post-editor {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 32px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+}
+
+.post-header {
+  margin-bottom: 28px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.post-header h1 {
+  margin: 0 0 8px;
+  font-size: 30px;
+  font-weight: 750;
+  color: #111827;
+}
+
+.post-header p {
+  margin: 0;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.post-type {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: 0 0 28px;
+  padding: 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+
+.post-type legend {
+  padding: 0 8px;
+  font-weight: 600;
+}
+
+.post-type label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.post-type input {
+  accent-color: #2563eb;
+}
+
+.post-form-section h2 {
+  margin-bottom: 22px;
+  padding: 12px 14px;
+  background: #f3f4f6;
+  border-radius: 6px;
+  font-size: 17px;
+  font-weight: 650;
+}
+
+.post-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 22px;
+}
+
+.post-field label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.post-field input,
+.post-field textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  background: #ffffff;
+  color: #111827;
+  font: inherit;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.post-field input:focus,
+.post-field textarea:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+.post-field textarea {
+  resize: vertical;
+  line-height: 1.6;
+}
+
+.post-field small {
+  color: #6b7280;
+  font-size: 12px;
+}
+
+.post-message {
+  margin: 16px 0;
+  padding: 12px 14px;
+  border-radius: 6px;
+  background: #fef2f2;
+  color: #b91c1c;
+  font-size: 14px;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 28px;
+}
+
+.post-submit {
+  padding: 11px 28px;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  
+}
+
+.post-submit:hover {
+  background: #1d4ed8;
+}
+
+@media (max-width: 600px) {
+  .post-page {
+    padding: 20px 12px;
+  }
+
+  .post-editor {
+    padding: 20px 16px;
+  }
+
+  .post-header h1 {
+    font-size: 25px;
+  }
+
+  .post-type {
+    gap: 16px;
+  }
+}

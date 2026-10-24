@@ -1,0 +1,112 @@
+/* Subscribe section */
+.subscribe-section {
+  width: 100%;
+  padding: 40px 20px;
+  background-color: #111827;
+  color: white;
+}
+
+/* Centre the complete content */
+.subscribe-section .subscribe-container {
+  width: 100%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Subscribe heading */
+.subscribe-section .subscribe-container h2 {
+  width: 100%;
+  margin: 0 0 10px;
+  text-align: center;
+
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: white;
+}
+
+/* Description */
+.subscribe-section .subscribe-description {
+  width: 100%;
+  margin: 0 0 24px;
+  text-align: center;
+
+  font-size: 20px;
+  color: #e5e7eb;
+}
+
+/* Email form */
+.subscribe-section .subscribe-form {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 12px;
+
+  width: 100%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Email input */
+.subscribe-section .subscribe-form input {
+  flex: 1;
+  width: 0;
+  min-width: 0;
+  padding: 12px 16px;
+
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background-color: white;
+  color: #111827;
+  font-size: 16px;
+}
+
+/* Subscribe button */
+.subscribe-section .subscribe-form button {
+  flex-shrink: 0;
+  padding: 12px 24px;
+
+  border: none;
+  border-radius: 8px;
+  background-color: #2563eb;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Success or error message */
+.subscribe-section .subscribe-message {
+  margin-top: 16px;
+  text-align: center;
+}
+
+/* Mobile layout */
+@media (max-width: 520px) {
+  .subscribe-section {
+    padding: 32px 16px;
+  }
+
+  .subscribe-section .subscribe-container h2 {
+    font-size: 32px;
+  }
+
+  .subscribe-section .subscribe-form {
+    flex-direction: column;
+  }
+
+  .subscribe-section .subscribe-form input {
+    width: 100%;
+  }
+
+  .subscribe-section .subscribe-form button {
+    width: 100%;
+  }
+}
